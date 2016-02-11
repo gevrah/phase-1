@@ -34,3 +34,12 @@ help-provides information about specific or possible commands
 
  
 1.4 Forking and Cloning Reflection
+My instructions for a person new to repos would be:
+
+-To create a repo, log on to GitHub, find the add button (the little plus sign in the top right) and follow the instructions.
+
+-To fork a repo, find the specific repo on GitHub, make sure you're logged in, and click the fork button. That should split the original and give you a forked version on your account. This allows you to take work that someone has done up to a certain point and continue that work without making changes to the original file. They can be combined later. 
+
+-To clone a repo, find the URL for the specific repo on GitHub, open your terminal and type "git clone [REPO URL]". This will add the cloned repo to your workspace!
+
+I hit a few speedbumps along the way, but during this process, I learned my way around my own workspace a lot, and also began to get a more holistic grasp of Git and GitHub in general.
