@@ -85,3 +85,14 @@ header span {
 #copyright {
   font-size: .65em;
 }
+
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+It's important to understand what kind of external file you're linking. It's also very important to understand where the file is located in relation to the HTML file (ie relative location).
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+We tried a lot of different tricks, but one of the most successful moves was creating separate divs or sections and then using text-align to split them into columns. Using float and width percentages also really helped to fine tune some of the little pieces that we were trying to get just right. 
+What CSS did you use to modify the element style (like size, color, etc.)
+We used a bunch! Font-size ("em" came in really handy), color, and line-height all came into play pretty heavily.   
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+We did use classes and ids pretty regularly. For some of the bigger, broader sections, classes seemed to make a lot of sense, so we could change full paragraphs or lines. For smaller things (like the "inc" in the header) we used an ID, because it was such a specific, singular piece.
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+Looking at the code for the actual site was kind of a trip. It was crazy how much in-line styling they did, and how many individual moves they had to make for every single piece of text. I think ours ended up coming out a lot cleaner (even if it made a few things a bit more difficult to mirror).
