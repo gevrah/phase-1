@@ -4,7 +4,7 @@
 # Your Solution Below
 
 def valid_triangle?(a, b, c)
-  if a.to_i > 0 && b.to_i > 0 && c.to_i > 0
+  if (a.to_i + b.to_i) > c.to_i && (b.to_i + c.to_i) > a.to_i && (a.to_i + c.to_i) > b.to_i
     puts "This is a valid triangle!"
   else
     puts "Not a valid triangle."
