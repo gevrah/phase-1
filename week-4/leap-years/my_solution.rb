@@ -7,17 +7,13 @@
 
 def leap_year?(x)
   if (x.to_i % 4) != 0 
-   puts "Not a leap year."
+   returns false
   elsif (x.to_i % 100) != 0
-  puts "It's a leap year!"
+   returns true
   elsif (x.to_i % 400) != 0
-  puts "Not a leap year."
+   returns false
   else
-  puts "It's a leap year!"
+   returns true
   end
 end
 
-puts "What year is it?"
-x = gets.chomp
-    
-leap_year?(x)
