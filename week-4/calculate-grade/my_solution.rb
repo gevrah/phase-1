@@ -8,25 +8,17 @@
 def get_grade(x)
   if 
     x.to_i >= 60 && x.to_i <= 69
-    puts "D"
+    return "D"
   elsif
     x.to_i >= 70 && x.to_i <= 79
-    puts "C"
+    return "C"
   elsif
     x.to_i >= 80 && x.to_i <= 89
-    puts "B"
+    return "B"
   elsif
     x.to_i >= 90
-    puts "A"
+    return "A"
   else
-    puts "F"
+    return "F"
   end
 end
-
-
-puts "What is your grade?"
-
-x = gets.chomp
-
-get_grade(x)
-

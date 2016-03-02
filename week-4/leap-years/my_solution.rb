@@ -7,13 +7,13 @@
 
 def leap_year?(x)
   if (x.to_i % 4) != 0 
-   returns false
+   return false
   elsif (x.to_i % 100) != 0
-   returns true
+   return true
   elsif (x.to_i % 400) != 0
-   returns false
+   return false
   else
-   returns true
+   return true
+ 
   end
 end
-
