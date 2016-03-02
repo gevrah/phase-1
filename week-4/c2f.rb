@@ -1,6 +1,10 @@
-print "Hello. Please enter a Celsius value: "
-celsius = gets
-fahrenheit = (celsius.to_i * 9 / 5) + 32
-print "The Fahrenheit equivalent is "
-print fahrenheit
-puts "."
+puts "Hi Sonny!"
+x = gets.chomp
+while x != "BYE"
+  if x == x.upcase
+    puts "NOT SINCE 1938"
+  else
+    puts "SPEAK UP"
+  end
+end
+puts "BYE SONNY!"
