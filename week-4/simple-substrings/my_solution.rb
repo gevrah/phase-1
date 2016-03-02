@@ -12,8 +12,3 @@ def welcome(x)
     puts "You should move to California"
   end
 end
-
-puts "What is your address?"
-x = gets.chomp
-
-welcome(x)
