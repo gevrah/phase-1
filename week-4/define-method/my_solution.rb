@@ -13,5 +13,3 @@ def do_something(bike, myspace, dbc)
   puts "You learned to selfie when you were " + myspace.to_s + "."
   puts "You learned to code when you were " + dbc.to_s + "."
 end
-
-print do_something(5, 14, 29)

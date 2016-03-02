@@ -1,19 +1,14 @@
 # Good Guess
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge by myself.
 
 
 # Your Solution Below
 def good_guess?(x)
   if 
     x.to_i == 42
-    puts "True!"
+    return true
   else
-    puts "False."
+    return false
   end
 end
-
-puts "Guess a number!"
-x = gets.chomp
-
-good_guess?(x)
