@@ -1,6 +1,6 @@
 # Factorial
 
-# I worked on this challenge with Esther Leytush
+# I worked on this challenge with Esther Leytus
 
 
 # Your Solution Below
